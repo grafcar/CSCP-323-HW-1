@@ -29,11 +29,11 @@ def calculate(x,y, operand):
     if isNum(operand):
         return
     if operand == "*":
-        return int(x)*int(y)
+        return float(x)*float(y)
     elif operand == "-":
-        return int(x)-int(y)
+        return float(x)-float(y)
     elif operand == "+":
-        return int(x)+int(y)
+        return float(x)+float(y)
     elif operand == "/":
         return float(x)/float(y)
     else:
